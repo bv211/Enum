@@ -23,11 +23,10 @@ void PrintWeapon(WeaponType weapon) {
 int main()
 {
 	WeaponType weapon{};
-	
-	
+
 	cout << "Enter the weapon number" << endl;
 	int tmpWeapon;
-	
+
 	cin >> tmpWeapon;
 	weapon = (WeaponType)tmpWeapon;
 
